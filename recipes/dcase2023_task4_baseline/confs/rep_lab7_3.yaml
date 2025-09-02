@@ -1,0 +1,143 @@
+data:
+  audio_max_len: 16
+  fs: 8000
+  frames_per_node: 5
+
+  # change with your paths if different.
+  # NOTE: if you have data in 44kHz only then synth_folder will be the path where
+  # resampled data will be placed.    后缀44k 的 代表的是原始文件，  没有44k的文件夹代表的是经过重新采样后16k 文件；
+
+  train_folder_8k: "../../data/Train_set/train_detection_wav/"
+  train_tsv: "../../data/Train_set/train_set_refine_crackle.tsv"
+  train_dur: "../../data/Train_set/train_wav_druation.tsv"
+
+  # val_folder:
+  eval_folder_8k: "../../data/Train_set/valid_detection_wav/"
+  valid_tsv: "../../data/Train_set/valid_set_refine_crackle.tsv"
+  valid_dur: "../../data/Train_set/valid_wav_druation.tsv"
+
+  # test folder
+  test_folder: "../../data/Test_set/test_wav/"
+  test_tsv: "../../data/Test_set/test_set_order.tsv"
+  test_dur: "../../data/Test_set/test_wav_druation.tsv"
+
+feats:
+  n_mels: 84
+  n_fft: 1024
+  n_window: 1024
+  hop_length: 128
+  sample_rate: 8000
+  f_min: 0
+  f_max: 4000
+
+
+#spec2node:
+#  n_input_ch: 3
+#  activation: cg
+#  conv_dropout: 0.5
+#  kernel: [3, 3, 3, 3, 3]
+#  pad: [1, 1, 1, 1, 1]
+#  stride: [1, 1, 1, 1, 1]
+#
+#  n_filt:  [ 16, 32, 64, 128, 256 ]
+#  pooling: [ [ 2, 2 ], [ 2, 2 ], [ 1, 2 ], [ 1, 2 ], [ 1, 2 ] ]
+#
+#  n_basis_kernels: 4
+#  DY_layers: [0, 1, 1, 1, 1, 1, 1]
+#  temperature: 31
+#  pool_dim: time
+#
+#  node_fea_dim: 512
+
+scaler:
+  statistic: instance # instance or dataset-wide statistic
+  normtype:  standard  #minmax # minmax or standard or mean normalization
+  dims: [1, 2] # dimensions over which normalization is applied
+  savepath: ./scaler.ckpt # path to scaler checkpoint
+
+
+net:
+  in_channels: 512
+  hidden_channels: 256
+  out_channels: 256
+  num_classes: 5
+
+  n_input_ch: 3
+  activation: cg
+  conv_dropout: 0.5
+  kernel: [3, 3, 3, 3, 3]
+  pad: [1, 1, 1, 1, 1]
+  stride: [1, 1, 1, 1, 1]
+
+  n_filt:  [ 16, 32, 64, 128, 256 ]
+  pooling: [ [ 2, 2 ], [ 2, 2 ], [ 1, 2 ], [ 1, 2 ], [ 1, 2 ] ]
+
+  n_basis_kernels: 4
+  DY_layers: [0, 1, 1, 1, 1, 1, 1]
+  temperature: 31
+  pool_dim: time
+
+  node_fea_dim: 512
+
+
+
+opt:
+  lr: 0.001
+
+#validation_method:
+#  method1: method1  #  method1 or method2
+#  method2: method2
+
+training:
+  #batch size: [synth, weak, unlabel]
+  batch_size:  12  # 128
+  batch_size_val: 12  # toto 664
+  const_max: 2 # max weight used for self supervised loss
+  n_epochs_warmup: 50 # num epochs used for exponential warmup
+  reload_dataloaders_every_n_epochs: 1
+
+  samples_per_exception: 6  #  for nums  of each class in  one Batch to samplering
+
+  debug_num_workers: 0
+  num_workers: 0 #  change according to your cpu
+  n_epochs: 600 # 200 # max num epochs
+  early_stop_patience:  600 #200 # Same as number of epochs by default, so no early stopping used
+  accumulate_batches: 1
+
+  gradient_clip: 0. # 0 no gradient clipping
+  frame_median_window: 7
+  node_median_window: 3 # length of median filter used to smooth prediction in inference (nb of output frames)
+  val_thresholds:   [0.85, 0.70, 0.55, 0.40] # [0.5,0.3, 0.2, 0.1] # [0.85, 0.70, 0.55, 0.40]  # 0.5 对于呼吸音检测太高。 [0.5] # thresholds used to compute f1 intersection in validation.
+
+  n_test_thresholds: 50 # number of thresholds used to compute psds in test
+  ema_factor:   0.1   #0.999 # ema factor for mean teacher
+
+  record_loss_type : bce # bce or mse for self supervised mean teacher loss
+  backend: None #ddp  #dp # pytorch lightning backend, ddp, dp or None
+  validation_interval: 1 # perform validation every X epoch, 1 default
+  weak_split: 0.9
+  seed: 42
+  deterministic: False
+  mixup: soft # Soft mixup gives the ratio of the mix to the labels, hard mixup gives a 1 to every label present.
+
+  obj_metric_synth_type: event  # intersection
+  precision: 32
+  enable_progress_bar: True
+
+
+
+#  dropout: 0.5
+#  rnn_layers: 2
+#  n_in_channel: 1
+#  nclass: 10
+#  attention: True
+#  n_RNN_cell: 128
+#  activation: glu
+#  rnn_type: BGRU
+#  kernel_size: [3, 3, 3, 3, 3, 3, 3]
+#  padding: [1, 1, 1, 1, 1, 1, 1]
+#  stride: [1, 1, 1, 1, 1, 1, 1]
+#  nb_filters: [ 16, 32, 64, 128, 128, 128, 128 ]
+#  pooling: [ [ 2, 2 ], [ 2, 2 ], [ 1, 2 ], [ 1, 2 ], [ 1, 2 ], [ 1, 2 ], [ 1, 2 ] ]
+#  dropout_recurrent: 0
+#  use_embeddings: False

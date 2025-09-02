@@ -1,0 +1,166 @@
+filename	onset	offset	event_label	record_bin_label	record_abnormal_label
+65097128_5.6_1_p3_2287.wav	0.164	1.23	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p3_2287.wav	1.841	3.174	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p3_2287.wav	3.7	4.631	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p3_2287.wav	13.342	14.227	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p3_2287.wav	14.746	15.336	Fine Crackle	Abnormal	Fine Crackle
+65099422_0.5_0_p1_2748.wav	0.162	0.401	Wheeze	Abnormal	Wheeze
+65099422_0.5_0_p1_2748.wav	4.939	6.097	Normal	Abnormal	Wheeze
+65099422_0.5_0_p1_2748.wav	8.314	8.98	Normal	Abnormal	Wheeze
+65097128_5.6_1_p1_2242.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p1_2332.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p1_2377.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p1_2430.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p1_2467.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p1_2539.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p1_3218.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p2_2257.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p2_2317.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p2_2362.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p2_2455.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p2_2491.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p2_2551.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p2_3219.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p3_2479.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p3_2527.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p3_3220.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p4_2272.wav	8.743	9.775	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2272.wav	6.977	8.158	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2272.wav	10.368	11.384	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2272.wav	11.887	12.749	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2272.wav	14.56	15.231	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2272.wav	13.144	14.116	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2272.wav	5.275	6.236	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2405.wav	0.934	2.19	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2405.wav	2.435	3.747	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2405.wav	8.464	9.64	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2405.wav	11.392	12.441	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2405.wav	13.731	15.071	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2405.wav	9.863	10.987	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2418.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p4_2503.wav	5.021	6.81	Fine Crackle	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2503.wav	9.403	11.207	Normal	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2503.wav	6.885	8.181	Normal	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2503.wav	1.829	3.659	Normal	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2503.wav	3.727	5.02	Normal	Abnormal	Fine Crackle
+65097128_5.6_1_p4_2515.wav	NA	NA	NA	Normal	NA
+65097128_5.6_1_p4_3217.wav	NA	NA	NA	Normal	NA
+65099422_0.5_0_p1_2529.wav	0.443	1.129	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p1_2529.wav	6.971	8.569	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p1_2529.wav	8.649	9.086	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p1_2541.wav	NA	NA	NA	Normal	NA
+65099422_0.5_0_p1_2588.wav	6.243	7.139	Fine Crackle	Abnormal	Fine Crackle
+65099422_0.5_0_p1_2588.wav	7.482	8.488	Fine Crackle	Abnormal	Fine Crackle
+65099422_0.5_0_p1_2588.wav	8.582	9.197	Normal	Abnormal	Fine Crackle
+65099422_0.5_0_p1_2588.wav	3.94	5.111	Normal	Abnormal	Fine Crackle
+65099422_0.5_0_p1_2588.wav	1.491	2.681	Normal	Abnormal	Fine Crackle
+65099422_0.5_0_p1_2588.wav	5.166	6.169	Normal	Abnormal	Fine Crackle
+65099422_0.5_0_p1_2588.wav	2.769	3.644	Normal	Abnormal	Fine Crackle
+65099422_0.5_0_p1_2648.wav	5.334	6.126	Fine Crackle	Abnormal	Fine Crackle
+65099422_0.5_0_p1_2648.wav	6.853	7.435	Normal	Abnormal	Fine Crackle
+65099422_0.5_0_p1_2648.wav	8.088	8.74	Normal	Abnormal	Fine Crackle
+65099422_0.5_0_p1_2648.wav	1.687	2.121	Normal	Abnormal	Fine Crackle
+65099422_0.5_0_p1_2648.wav	2.691	3.245	Normal	Abnormal	Fine Crackle
+65099422_0.5_0_p1_2648.wav	3.975	4.47	Normal	Abnormal	Fine Crackle
+65099422_0.5_0_p1_2712.wav	NA	NA	NA	Normal	NA
+65099422_0.5_0_p2_2517.wav	4.433	5.127	Fine Crackle	Abnormal	Fine Crackle
+65099422_0.5_0_p2_2577.wav	NA	NA	NA	Normal	NA
+65099422_0.5_0_p2_2611.wav	NA	NA	NA	Normal	NA
+65099422_0.5_0_p2_2674.wav	1.385	2.532	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p2_2674.wav	2.888	3.43	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p2_2674.wav	3.54	4.411	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p2_2674.wav	7.241	8.209	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p2_2724.wav	0.056	0.612	Fine Crackle	Abnormal	Fine Crackle
+65099422_0.5_0_p2_2724.wav	1.037	1.929	Fine Crackle	Abnormal	Fine Crackle
+65099422_0.5_0_p2_2724.wav	2.396	3.272	Fine Crackle	Abnormal	Fine Crackle
+65099422_0.5_0_p2_2724.wav	5.725	6.585	Fine Crackle	Abnormal	Fine Crackle
+65099422_0.5_0_p2_2760.wav	1.983	2.467	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p2_2760.wav	2.491	3.131	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p2_2760.wav	3.259	3.682	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p2_2760.wav	3.744	4.618	Normal	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p2_2760.wav	6.434	7.257	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p2_2760.wav	7.851	8.483	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p2_2760.wav	0.405	0.909	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p2_2760.wav	5.051	6.06	Normal	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p3_2505.wav	1.136	1.727	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p3_2505.wav	6.382	6.805	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p3_2505.wav	2.347	2.716	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p3_2505.wav	3.691	4.058	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p3_2505.wav	7.711	8.086	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p3_2505.wav	4.954	5.475	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p3_2505.wav	8.636	9.126	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p3_2505.wav	1.727	2.347	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p3_2505.wav	6.835	7.596	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p3_2736.wav	5.455	6.435	Fine Crackle	Abnormal	Fine Crackle
+65099422_0.5_0_p3_2736.wav	6.987	7.908	Fine Crackle	Abnormal	Fine Crackle
+65099422_0.5_0_p3_2736.wav	0.619	1.324	Fine Crackle	Abnormal	Fine Crackle
+65099422_0.5_0_p4_2493.wav	0.679	1.048	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2493.wav	4.948	5.346	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2493.wav	7.522	8.356	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2493.wav	6.655	7.231	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2493.wav	8.611	9.159	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2493.wav	3.086	3.602	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2493.wav	2.418	3.07	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2493.wav	6.293	6.652	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2493.wav	3.867	4.814	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2493.wav	5.397	6.24	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2565.wav	4.655	5.53	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2565.wav	1.005	2.01	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2565.wav	2.083	2.427	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2565.wav	3.169	3.607	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2565.wav	4.345	4.622	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2565.wav	5.708	5.972	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2565.wav	6.733	6.983	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2565.wav	8.077	8.841	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2565.wav	7.135	7.803	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2565.wav	3.689	4.304	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2565.wav	5.978	6.555	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2661.wav	4.168	4.765	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2661.wav	5.017	5.316	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2661.wav	6.369	7.194	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2661.wav	7.529	8.341	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2661.wav	0.425	1.194	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2661.wav	1.744	2.399	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2661.wav	3.755	4.09	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2661.wav	5.34	5.883	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2661.wav	1.295	1.683	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2661.wav	8.561	9.205	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2700.wav	1.226	1.91	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2700.wav	3.473	3.784	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2700.wav	3.811	4.605	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2700.wav	5.009	5.655	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2700.wav	6.353	6.998	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2700.wav	7.213	8.101	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2700.wav	8.389	9.061	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2700.wav	0.038	0.733	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2772.wav	0.456	0.714	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2772.wav	2.317	3.077	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2772.wav	5.778	6.171	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2772.wav	6.286	6.595	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2772.wav	6.766	7.262	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2772.wav	7.78	8.257	Fine Crackle	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2772.wav	3.994	4.413	Wheeze	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2772.wav	8.838	9.201	Normal	Abnormal	Fine Crackle, Wheeze
+65099422_0.5_0_p4_2772.wav	0.047	0.365	Wheeze	Abnormal	Fine Crackle, Wheeze
+65100087_7.2_0_p1_3233.wav	NA	NA	NA	Normal	NA
+65100087_7.2_0_p2_3234.wav	NA	NA	NA	Normal	NA
+65100087_7.2_0_p3_3236.wav	NA	NA	NA	Normal	NA
+65100087_7.2_0_p4_3235.wav	NA	NA	NA	Normal	NA
+65101170_0.4_0_p2_3246.wav	4.431	5.288	Normal	Abnormal	Wheeze
+65101170_0.4_0_p2_3246.wav	7.902	8.295	Wheeze	Abnormal	Wheeze
+65101170_0.4_0_p2_3246.wav	7.505	7.882	Normal	Abnormal	Wheeze
+65101170_0.4_0_p2_3246.wav	8.622	8.993	Wheeze	Abnormal	Wheeze
+65101170_0.4_0_p2_3246.wav	10.72	11.53	Normal	Abnormal	Wheeze
+65101170_0.4_0_p2_3246.wav	5.905	6.347	Normal	Abnormal	Wheeze
+65101170_0.4_0_p2_3246.wav	12.986	13.539	Wheeze	Abnormal	Wheeze
+65101170_0.4_0_p3_3247.wav	3.511	5.172	Normal	Abnormal	Wheeze
+65101170_0.4_0_p3_3247.wav	6.957	7.774	Normal	Abnormal	Wheeze
+65101170_0.4_0_p3_3247.wav	8.163	8.63	Normal	Abnormal	Wheeze
+65101170_0.4_0_p3_3247.wav	8.993	9.411	Normal	Abnormal	Wheeze
+65101170_0.4_0_p3_3247.wav	11.522	12.842	Normal	Abnormal	Wheeze
+65101170_0.4_0_p3_3247.wav	12.908	14.313	Normal	Abnormal	Wheeze
+65101170_0.4_0_p3_3247.wav	7.785	8.143	Wheeze	Abnormal	Wheeze
+65101170_0.4_0_p3_3247.wav	8.638	8.962	Wheeze	Abnormal	Wheeze
+65101170_0.4_0_p3_3247.wav	9.411	9.862	Wheeze	Abnormal	Wheeze
+65101170_0.4_0_p4_3248.wav	1.948	2.815	Wheeze	Abnormal	Wheeze
+65101170_0.4_0_p4_3248.wav	6.589	7.422	Normal	Abnormal	Wheeze

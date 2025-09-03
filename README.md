@@ -1,6 +1,9 @@
 # Introduction 
 
-🎉    Welcome to **EzhouNet** . This repository provides an **end-to-end deep learning framework** for **sound event detection (SED)**.   We focus on **respiratory sound events **, and the idea was inspired by **anchor boxes in computer vision**.  
+🎉    Welcome to **EzhouNet**  [A framework based on graph neural network and anchor interval for the respiratory sound event detection](https://arxiv.org/abs/2509.01153) .
+
+This repository provides an **end-to-end deep learning method** for **sound event detection (SED)**.   
+We focus on **respiratory sound events**, and the idea was inspired by **anchor boxes in computer vision**.  
 
 Instead of using frame-level post-processing, we directly **learn event intervals** by:  
 - Generating **anchor intervals** with  
@@ -195,7 +198,14 @@ During the  research time in Ezhou, I met a friend there, Kun, who took me to vi
 
 
 
-   Feel free to fork, experiment, and improve your  lab.   Happy coding, and good luck with your projects! 🚀
+Feel free to fork, experiment, and improve your  lab. If you like it, give it star.
+
+
+Happy coding, and good luck with your projects! 🚀
+
+
+
+
         
 
 
